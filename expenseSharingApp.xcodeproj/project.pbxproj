@@ -8,12 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		78609186205392630045CDAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78609185205392630045CDAB /* AppDelegate.swift */; };
-		78609188205392630045CDAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78609187205392630045CDAB /* ViewController.swift */; };
+		78609188205392630045CDAB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78609187205392630045CDAB /* MainViewController.swift */; };
 		7860918B205392630045CDAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78609189205392630045CDAB /* Main.storyboard */; };
 		7860918D205392640045CDAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7860918C205392640045CDAB /* Assets.xcassets */; };
 		78609190205392640045CDAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7860918E205392640045CDAB /* LaunchScreen.storyboard */; };
 		7860919B205392640045CDAB /* expenseSharingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7860919A205392640045CDAB /* expenseSharingAppTests.swift */; };
 		786091A6205392640045CDAB /* expenseSharingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786091A5205392640045CDAB /* expenseSharingAppUITests.swift */; };
+		786091B4205396370045CDAB /* FKTestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786091B3205396370045CDAB /* FKTestModel.swift */; };
+		786091B6205396D70045CDAB /* TranscationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786091B5205396D70045CDAB /* TranscationViewController.swift */; };
+		786091B8205399570045CDAB /* ContactProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786091B7205399570045CDAB /* ContactProvider.swift */; };
+		786091BC20539C6D0045CDAB /* ContactTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786091BB20539C6D0045CDAB /* ContactTableViewController.swift */; };
+		786091BE20539F800045CDAB /* ParticipantInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786091BD20539F800045CDAB /* ParticipantInfo.swift */; };
+		786091C02053A02A0045CDAB /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786091BF2053A02A0045CDAB /* CustomTableViewCell.swift */; };
+		786091C32053A3C70045CDAB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 786091C22053A3C70045CDAB /* CoreGraphics.framework */; };
+		786091C52053A9CA0045CDAB /* ExpenseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786091C42053A9CA0045CDAB /* ExpenseHelper.swift */; };
+		786091C72053AE5E0045CDAB /* CGFloatExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786091C62053AE5E0045CDAB /* CGFloatExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +45,7 @@
 /* Begin PBXFileReference section */
 		78609182205392630045CDAB /* expenseSharingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = expenseSharingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78609185205392630045CDAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		78609187205392630045CDAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		78609187205392630045CDAB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		7860918A205392630045CDAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7860918C205392640045CDAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7860918F205392640045CDAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +56,15 @@
 		786091A1205392640045CDAB /* expenseSharingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = expenseSharingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		786091A5205392640045CDAB /* expenseSharingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = expenseSharingAppUITests.swift; sourceTree = "<group>"; };
 		786091A7205392640045CDAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		786091B3205396370045CDAB /* FKTestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FKTestModel.swift; sourceTree = "<group>"; };
+		786091B5205396D70045CDAB /* TranscationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranscationViewController.swift; sourceTree = "<group>"; };
+		786091B7205399570045CDAB /* ContactProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactProvider.swift; sourceTree = "<group>"; };
+		786091BB20539C6D0045CDAB /* ContactTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewController.swift; sourceTree = "<group>"; };
+		786091BD20539F800045CDAB /* ParticipantInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipantInfo.swift; sourceTree = "<group>"; };
+		786091BF2053A02A0045CDAB /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		786091C22053A3C70045CDAB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		786091C42053A9CA0045CDAB /* ExpenseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseHelper.swift; sourceTree = "<group>"; };
+		786091C62053AE5E0045CDAB /* CGFloatExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CGFloatExtension.swift; path = expenseSharingApp/CGFloatExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				786091C32053A3C70045CDAB /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +96,12 @@
 		78609179205392630045CDAB = {
 			isa = PBXGroup;
 			children = (
+				786091C62053AE5E0045CDAB /* CGFloatExtension.swift */,
 				78609184205392630045CDAB /* expenseSharingApp */,
 				78609199205392640045CDAB /* expenseSharingAppTests */,
 				786091A4205392640045CDAB /* expenseSharingAppUITests */,
 				78609183205392630045CDAB /* Products */,
+				786091C12053A3C70045CDAB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +119,18 @@
 			isa = PBXGroup;
 			children = (
 				78609185205392630045CDAB /* AppDelegate.swift */,
-				78609187205392630045CDAB /* ViewController.swift */,
+				78609187205392630045CDAB /* MainViewController.swift */,
 				78609189205392630045CDAB /* Main.storyboard */,
 				7860918C205392640045CDAB /* Assets.xcassets */,
 				7860918E205392640045CDAB /* LaunchScreen.storyboard */,
 				78609191205392640045CDAB /* Info.plist */,
+				786091B3205396370045CDAB /* FKTestModel.swift */,
+				786091B5205396D70045CDAB /* TranscationViewController.swift */,
+				786091B7205399570045CDAB /* ContactProvider.swift */,
+				786091BB20539C6D0045CDAB /* ContactTableViewController.swift */,
+				786091BD20539F800045CDAB /* ParticipantInfo.swift */,
+				786091BF2053A02A0045CDAB /* CustomTableViewCell.swift */,
+				786091C42053A9CA0045CDAB /* ExpenseHelper.swift */,
 			);
 			path = expenseSharingApp;
 			sourceTree = "<group>";
@@ -123,6 +151,14 @@
 				786091A7205392640045CDAB /* Info.plist */,
 			);
 			path = expenseSharingAppUITests;
+			sourceTree = "<group>";
+		};
+		786091C12053A3C70045CDAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				786091C22053A3C70045CDAB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +292,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78609188205392630045CDAB /* ViewController.swift in Sources */,
+				786091BE20539F800045CDAB /* ParticipantInfo.swift in Sources */,
+				78609188205392630045CDAB /* MainViewController.swift in Sources */,
+				786091C02053A02A0045CDAB /* CustomTableViewCell.swift in Sources */,
+				786091B8205399570045CDAB /* ContactProvider.swift in Sources */,
+				786091BC20539C6D0045CDAB /* ContactTableViewController.swift in Sources */,
 				78609186205392630045CDAB /* AppDelegate.swift in Sources */,
+				786091C72053AE5E0045CDAB /* CGFloatExtension.swift in Sources */,
+				786091B4205396370045CDAB /* FKTestModel.swift in Sources */,
+				786091C52053A9CA0045CDAB /* ExpenseHelper.swift in Sources */,
+				786091B6205396D70045CDAB /* TranscationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,7 +473,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = JQ525L2MZD;
 				INFOPLIST_FILE = expenseSharingApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -437,6 +482,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.adobe.expenseSharingApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b9583a80-a3fe-4101-9c9d-4229664a9c6d";
+				PROVISIONING_PROFILE_SPECIFIER = "Generic Adobe Developer";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -446,7 +493,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = expenseSharingApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -454,6 +502,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.adobe.expenseSharingApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
